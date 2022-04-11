@@ -29,6 +29,6 @@ Route::get('/prices', function () {
 })->name('prices');
 
 Route::get('/contacts', function () {
-    $Contacts = 'Our contacts';
+    $contacts = 'Our contacts';
     return view('contacts', compact('contacts'));
 })->name('contacts');
