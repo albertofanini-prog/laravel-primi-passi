@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $home = 'Hello world';
+    $home = 'Hello world, this is the home of my first project with Laravel!';
     return view('home', compact('home'));
 })->name('home');
 
 Route::get('/info', function () {
-    $info = 'Info about us';
+    $info = 'This is the section where I would write the info.';
     return view('info', compact('info'));
 })->name('info');
 

@@ -44,6 +44,12 @@
             font-size: 16px;
             font-weight: 700;
         }
+        main{
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
