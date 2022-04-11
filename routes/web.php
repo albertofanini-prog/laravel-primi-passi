@@ -14,10 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $welcome = 'Hello world';
-    return view('home', compact('welcome'));
+    $home = 'Hello world';
+    return view('home', compact('home'));
 })->name('home');
 
 Route::get('/info', function () {
-    return view('home');
-});
+    $info = 'Info about us';
+    return view('info', compact('info'));
+})->name('info');
+
+Route::get('/prices', function () {
+    $prices = 'Our prices';
+    return view('prices', compact('prices'));
+})->name('prices');
+
+Route::get('/contacts', function () {
+    $Contacts = 'Our contacts';
+    return view('contacts', compact('contacts'));
+})->name('contacts');
