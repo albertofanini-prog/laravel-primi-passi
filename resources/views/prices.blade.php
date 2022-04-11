@@ -72,7 +72,7 @@
         </div>
     </header>
     <main>
-        <h1>prices</h1>
+        <h1>{{$prices}}</h1>
     </main>
 </body>
 </html>

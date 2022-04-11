@@ -24,11 +24,11 @@ Route::get('/info', function () {
 })->name('info');
 
 Route::get('/prices', function () {
-    $prices = 'Our prices';
+    $prices = 'Here I coul write the prices.';
     return view('prices', compact('prices'));
 })->name('prices');
 
 Route::get('/contacts', function () {
-    $contacts = 'Our contacts';
+    $contacts = 'And here I could put some contacts.';
     return view('contacts', compact('contacts'));
 })->name('contacts');
